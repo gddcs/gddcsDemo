@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- customview属性 -->
+    <declare-styleable name="gddcsView">
+        <attr name="firecolor" format="color"/>
+        <attr name="isRandomColor" format="boolean"/>
+    </declare-styleable>
+
 </resources>
