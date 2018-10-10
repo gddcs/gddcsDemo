@@ -1,2 +1,2 @@
 # gddcsDemo
-just test only TEST
+just test only dev
