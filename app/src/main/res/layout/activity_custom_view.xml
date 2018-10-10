@@ -6,11 +6,5 @@
     android:layout_height="match_parent"
     tools:context=".modules.customviewmodule.view.CustomViewActivity">
 
-    <com.example.gddcs.gddcsdemo.customviews.gddcsView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:firecolor="@color/colorPrimary"
-        app:isRandomColor="false"
-        />
 
 </android.support.constraint.ConstraintLayout>
