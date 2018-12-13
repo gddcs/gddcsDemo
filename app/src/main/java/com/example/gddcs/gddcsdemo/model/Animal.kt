@@ -1,5 +1,6 @@
 package com.example.gddcs.gddcsdemo.model
 
-class Animal {
-
-}
+data class Animal(
+        val name : String?,
+        var shoutCount : Int?
+)
