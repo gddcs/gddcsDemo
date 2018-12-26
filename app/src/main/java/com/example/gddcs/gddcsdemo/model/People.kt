@@ -6,4 +6,6 @@ import android.databinding.ObservableInt
 class People {
     var name = ObservableField<String>()
     var age = ObservableInt()
+
+
 }

@@ -12,18 +12,25 @@ import com.example.gddcs.gddcsdemo.viewmodel.PeopleViewModel
 class KotlinTestActivity : AppCompatActivity() {
     lateinit var mBinding : ActivityKotlinTestBinding
     lateinit var peopleViewmodel : PeopleViewModel
+    var a = People()
+    var numb : Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         mBinding = DataBindingUtil.setContentView(this,R.layout.activity_kotlin_test);
 
-        var a = People()
+        a = People()
         a.name.set("old man")
         a.age.set(78)
 
         peopleViewmodel = PeopleViewModel(a)
 
         mBinding.setPeopleViewModel(peopleViewmodel)
+    }
+
+    override fun onResume() {
+        super.onResume()
+
     }
 }
