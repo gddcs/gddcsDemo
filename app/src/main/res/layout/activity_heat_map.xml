@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".view.HeatMapActivity">
+
+    <com.example.gddcs.gddcsdemo.customview.FootView
+        android:id="@+id/example_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:maxDrawWidth="200dp"
+        app:maxDrawHeight="200dp"
+        app:transparentRadius="90"
+        app:minValue="0.0"
+        app:maxValue="100"
+        />
+
+</LinearLayout>
