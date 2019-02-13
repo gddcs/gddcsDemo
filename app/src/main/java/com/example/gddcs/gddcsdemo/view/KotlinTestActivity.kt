@@ -1,5 +1,6 @@
 package com.example.gddcs.gddcsdemo.view
 
+import android.app.AlertDialog
 import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -33,4 +34,5 @@ class KotlinTestActivity : AppCompatActivity() {
         super.onResume()
 
     }
+
 }

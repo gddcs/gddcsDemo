@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="opacity" format="integer" />
+    <attr name="minOpacity" format="integer" />
+    <attr name="maxOpacity" format="integer" />
+    <attr name="blur" format="float" />
+    <attr name="radius" format="dimension" />
+    <attr name="dataPaddingTop" format="dimension" />
+    <attr name="dataPaddingBottom" format="dimension" />
+    <attr name="dataPaddingLeft" format="dimension" />
+    <attr name="dataPaddingRight" format="dimension" />
+    <attr name="dataPadding" format="dimension" />
+    <attr name="maxDrawingWidth" format="dimension" />
+    <attr name="maxDrawingHeight" format="dimension" />
+    <attr name="transparentBackground" format="boolean" />
+
+
+    <declare-styleable name="HeatMap">
+        <attr name="opacity" />
+        <attr name="minOpacity" />
+        <attr name="maxOpacity" />
+        <attr name="blur" />
+        <attr name="radius" />
+        <attr name="dataPaddingTop" />
+        <attr name="dataPaddingBottom" />
+        <attr name="dataPaddingLeft" />
+        <attr name="dataPaddingRight" />
+        <attr name="dataPadding" />
+        <attr name="maxDrawingWidth" />
+        <attr name="maxDrawingHeight" />
+        <attr name="transparentBackground" />
+    </declare-styleable>
+
+    <declare-styleable name="FootView">
+        <attr name="maxDrawHeight" format="dimension" />
+        <attr name="maxDrawWidth" format="dimension" />
+        <attr name="transparentRadius" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="minValue" format="float" />
+    </declare-styleable>
+</resources>

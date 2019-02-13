@@ -1,12 +1,12 @@
 package com.example.gddcs.gddcsdemo;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.gddcs.gddcsdemo.view.KotlinTestActivity;
+import com.example.gddcs.gddcsdemo.view.HeatMapActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Button mKotlinBt;
@@ -21,9 +21,11 @@ public class MainActivity extends AppCompatActivity {
         mKotlinBt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent t = new Intent(MainActivity.this, KotlinTestActivity.class);
+                Intent t = new Intent(MainActivity.this, HeatMapActivity.class);
                 startActivity(t);
             }
         });
     }
+
+
 }
