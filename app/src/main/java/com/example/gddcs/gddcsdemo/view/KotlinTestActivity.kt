@@ -4,6 +4,8 @@ import android.app.AlertDialog
 import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.view.Window
+import android.view.WindowManager
 import com.example.gddcs.gddcsdemo.R
 import com.example.gddcs.gddcsdemo.databinding.ActivityKotlinTestBinding
 import com.example.gddcs.gddcsdemo.model.Animal
@@ -18,7 +20,7 @@ class KotlinTestActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        windowConfig()
         mBinding = DataBindingUtil.setContentView(this,R.layout.activity_kotlin_test);
 
         a = People()
@@ -33,6 +35,10 @@ class KotlinTestActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
 
+    }
+
+    fun windowConfig(){
+        window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
     }
 
 }

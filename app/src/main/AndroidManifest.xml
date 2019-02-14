@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.KotlinTestActivity" />
-        <activity android:name=".view.HeatMapActivity"></activity>
+        <activity android:name=".view.HeatMapActivity" android:noHistory="true">
+        </activity>
     </application>
 
 </manifest>

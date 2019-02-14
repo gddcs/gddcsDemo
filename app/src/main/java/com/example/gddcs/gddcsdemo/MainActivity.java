@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.gddcs.gddcsdemo.view.HeatMapActivity;
+import com.example.gddcs.gddcsdemo.view.KotlinTestActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Button mKotlinBt;
@@ -21,11 +22,9 @@ public class MainActivity extends AppCompatActivity {
         mKotlinBt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent t = new Intent(MainActivity.this, HeatMapActivity.class);
+                Intent t = new Intent(MainActivity.this, KotlinTestActivity.class);
                 startActivity(t);
             }
         });
     }
-
-
 }
