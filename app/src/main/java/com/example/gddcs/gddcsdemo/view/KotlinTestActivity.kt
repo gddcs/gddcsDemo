@@ -1,14 +1,11 @@
 package com.example.gddcs.gddcsdemo.view
 
-import android.app.AlertDialog
 import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.view.Window
 import android.view.WindowManager
 import com.example.gddcs.gddcsdemo.R
 import com.example.gddcs.gddcsdemo.databinding.ActivityKotlinTestBinding
-import com.example.gddcs.gddcsdemo.model.Animal
 import com.example.gddcs.gddcsdemo.model.People
 import com.example.gddcs.gddcsdemo.viewmodel.PeopleViewModel
 
@@ -21,7 +18,7 @@ class KotlinTestActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         windowConfig()
-        mBinding = DataBindingUtil.setContentView(this,R.layout.activity_kotlin_test);
+        mBinding = DataBindingUtil.setContentView(this,R.layout.activity_kotlin_test)
 
         a = People()
         a.name.set("old man")
