@@ -1,15 +1,14 @@
-package com.example.gddcs.gddcsdemo.view
+package com.example.gddcs.gddcsdemo.view.activity
 
 import android.databinding.DataBindingUtil
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.view.WindowManager
 import com.example.gddcs.gddcsdemo.R
 import com.example.gddcs.gddcsdemo.databinding.ActivityKotlinTestBinding
 import com.example.gddcs.gddcsdemo.model.People
 import com.example.gddcs.gddcsdemo.viewmodel.PeopleViewModel
 
-class KotlinTestActivity : AppCompatActivity() {
+class KotlinTestActivity : AppBaseActivity() {
     lateinit var mBinding : ActivityKotlinTestBinding
     lateinit var peopleViewmodel : PeopleViewModel
     var a = People()

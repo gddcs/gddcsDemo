@@ -1,9 +1,8 @@
-package com.example.gddcs.gddcsdemo.view;
+package com.example.gddcs.gddcsdemo.view.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.util.ArrayMap;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.gddcs.gddcsdemo.R;
@@ -17,7 +16,7 @@ import java.util.Random;
 /**
  * 热力图
  */
-public class HeatMapActivity extends AppCompatActivity {
+public class HeatMapActivity extends AppBaseActivity {
     private FootView map;
 
     @Override

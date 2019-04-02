@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="8dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -21,16 +22,46 @@
         android:id="@+id/kotin_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="进入kotlin activity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <Button
+        android:id="@+id/jni_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show jni message"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kotin_button" />
+
+    <Button
+        android:id="@+id/heat_map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="热力图"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jni_button" />
+
+    <Button
+        android:id="@+id/mp_android_chart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MPAndroidChartActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heat_map_button" />
+
+    <Button
+        android:id="@+id/aidl_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AIDL 通讯"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mp_android_chart_button" />
 
 
 </android.support.constraint.ConstraintLayout>

@@ -15,5 +15,4 @@ abstract class BaseViewModel<T> {
 
     abstract fun bindText(t : T): String
 
-
 }
